@@ -17,14 +17,7 @@ type Props = {};
 export default class App extends Component<Props> {
 
   componentWillMount() {
-    firebase.initializeApp({
-      apiKey: "AIzaSyAIgGXNbrGeNss7xoGrd8xx5RMsIar7NRg",
-      authDomain: "auth-7c065.firebaseapp.com",
-      databaseURL: "https://auth-7c065.firebaseio.com",
-      projectId: "auth-7c065",
-      storageBucket: "auth-7c065.appspot.com",
-      messagingSenderId: "374313026599"
-    });
+    firebase.initializeApp();
   }
 
   render() {
